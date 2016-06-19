@@ -1,0 +1,19 @@
+{
+  "name": "reactjswaro",
+  "version": "1.0.0",
+  "description": "Implement WarO game using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "testme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanepio/ReactJSWarO.git"
+  },
+  "author": "Evan Porter",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/evanepio/ReactJSWarO/issues"
+  },
+  "homepage": "https://github.com/evanepio/ReactJSWarO#readme"
+}
