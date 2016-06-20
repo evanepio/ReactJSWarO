@@ -1,1 +1,3 @@
-console.log('I am alive!');
+import WarOGame from './WarOGame'
+
+WarOGame();
