@@ -1,12 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const pair = ['Hello', 'World'];
-
-export default function () {
-    ReactDOM.render(
-        <div>{pair.join()}</div>,
-        document.getElementById('app')
-    );
-}
-
+export default React.createClass({
+    getPair: function () {
+        return this.props.pair || [];
+    },
+    render: function () {
+        return <div className="something">
+            {this.getPair().map(entry =>
+                <button key={entry}>
+                    <h1 style={{color: "blue"}}>{entry}</h1>
+                </button>
+            )}
+        </div>;
+    }
+});
