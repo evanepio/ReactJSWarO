@@ -6,8 +6,8 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
     "test:watch": "npm run test -- --watch",
-    "webpack": "node_modules/.bin/webpack",
-    "webpack-dev-server": "node_modules/.bin/webpack-dev-server"
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
