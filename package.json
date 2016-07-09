@@ -37,5 +37,11 @@
     "immutable": "^3.8.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }
