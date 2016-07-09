@@ -1,14 +1,14 @@
 import React from 'react';
 
 export default React.createClass({
-    getPair: function () {
-        return this.props.pair || [];
+    getHand: function () {
+        return this.props.hand || [];
     },
     render: function () {
         return <div className="something">
-            {this.getPair().map(entry =>
+            {this.getHand().map(entry =>
                 <button key={entry}>
-                    <h1 style={{color: "blue"}}>{entry}</h1>
+                    <div style={{color: "blue", fontSize:"30px"}}>{entry}</div>
                 </button>
             )}
         </div>;

@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 
 import WarOGame from './WarOGame'
 
-const pair = ['Hello', 'World'];
+const hand = [1, 5, 6, 7];
 
 ReactDOM.render(
-    <WarOGame pair={pair} />,
+    <WarOGame hand={hand} />,
     document.getElementById('app')
 );
